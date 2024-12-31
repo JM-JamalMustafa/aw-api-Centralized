@@ -1,9 +1,13 @@
+# Python files that are not meant to be tracked (if any)
 app/practics.py
 app/schedular.py
-activity.db
-activity1.db
-activity2.db
-activity4.db
+
+# Database files
+*.db
+
+# Static HTML files (if they should not be tracked)
 jamal.html
 mazhar.html
+
+# Sensitive data files
 user_tokens.json
